@@ -14,6 +14,7 @@ if (process.argv.length <= 2) {
 }
 
 const size = parseInt(process.argv[2], 10);
+// Radix (second arg) is the number base (it was 16 - hexadecimal)
 
 for (let i = 0; i < size; i++) {
   for (let j = 0; j < size; j++) {
